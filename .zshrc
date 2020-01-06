@@ -103,3 +103,5 @@ export LANG=en_US.UTF-8
 alias zshconfig="sudo subl ~/.zshrc"
 alias ohmyzsh="sudo subl ~/.oh-my-zsh"
 alias start_sddm="sudo systemctl start sddm"
+alias q="exit"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
