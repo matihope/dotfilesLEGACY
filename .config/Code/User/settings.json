@@ -1,0 +1,15 @@
+{
+    "kite.showWelcomeNotificationOnStartup": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "Hack",
+    "editor.fontFamily": "Noto Sans Mono Medium",
+    "editor.fontSize": 15,
+    "code-runner.runInTerminal": true,
+    "zenMode.fullScreen": false,
+    "python.pythonPath": "/usr/sbin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=120",
+    ],
+}
