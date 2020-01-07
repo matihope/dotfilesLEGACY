@@ -2,7 +2,8 @@
     "kite.showWelcomeNotificationOnStartup": false,
     "files.autoSave": "afterDelay",
     "terminal.integrated.fontFamily": "Hack",
-    "editor.fontFamily": "Noto Sans Mono Medium",
+    "editor.fontFamily": q
+    "Noto Sans Mono Medium",
     "editor.fontSize": 15,
     "code-runner.runInTerminal": true,
     "zenMode.fullScreen": false,
@@ -12,4 +13,5 @@
     "python.linting.pycodestyleArgs": [
         "--max-line-length=120",
     ],
+    "markdown.extension.preview.autoShowPreviewToSide": true,
 }
