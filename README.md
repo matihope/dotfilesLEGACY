@@ -22,7 +22,11 @@ These are my dotfiles :)
 
   * For __zsh__(oh-my-zsh plugins):
     * ***zsh-autosuggestions***:
-      * `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
+      * ```
+        git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+        ```
     * ***zsh-syntax-highlighting***:
-      * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
+      * ```
+        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+        ```
 
