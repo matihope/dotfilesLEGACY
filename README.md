@@ -19,3 +19,10 @@ These are my dotfiles :)
         ```
         or
       * Install with AUR: `https://aur.archlinux.org/sierrabreeze-kwin-decoration-git.git`
+
+  * For __zsh__(oh-my-zsh plugins):
+    * ***zsh-autosuggestions***:
+      * `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
+    * ***zsh-syntax-highlighting***:
+      * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
+
