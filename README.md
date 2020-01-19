@@ -1,16 +1,16 @@
 # dotfiles
 Dotfiles from mateusz@mati-arch\
 These are my dotfiles :)
-<br>
 
- **Dependencies:**
+**Dependencies:**
  =
-  * For __latte-dock__:
+
+* For __latte-dock__:
     * The required plugin in the top panel is called ***Active Window Control***
-      *  Add Widgets... -> Get new widgets -> Download new plasma widgets
-      * find *Active Window Control* applet and install through the first item with .plasmoid extension
-       
-      or 
+      1. Add Widgets... -> Get new widgets -> Download new plasma widgets
+      1. find *Active Window Control* applet and install through the first item with .plasmoid extension
+
+      or
 
       * Install with AUR: `https://aur.archlinux.org/packages/plasma5-applets-active-window-control-git/`
     * The WM theme is ***sierrabreeze-kwin-decoration***, download it by:
@@ -20,13 +20,24 @@ These are my dotfiles :)
         or
       * Install with AUR: `https://aur.archlinux.org/sierrabreeze-kwin-decoration-git.git`
 
-  * For __zsh__(oh-my-zsh plugins):
-    * ***zsh-autosuggestions***:
-      * ```
-        git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-        ```
-    * ***zsh-syntax-highlighting***:
-      * ```
-        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-        ```
+* For __zsh__(oh-my-zsh plugins):
+  * ***zsh-autosuggestions***:
 
+    ```
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+    ```
+
+  * ***zsh-syntax-highlighting***:
+
+    ```
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+    ```
+
+* All __i3-gaps__ related:
+  * rofi
+  * pavucontrol
+  * lxappearance
+  * compton
+  * st (aur)
+  * Infinality
+  * Polybar

@@ -13,4 +13,6 @@
         "--max-line-length=120",
     ],
     "markdown.extension.preview.autoShowPreviewToSide": true,
+    "gitlens.currentLine.enabled": false,
+    "C_Cpp.updateChannel": "Insiders",
 }
