@@ -101,12 +101,12 @@ bindsym $mod+a focus parent
 set $ws1 "1 "
 set $ws2 "2 "
 set $ws3 "3 "
-set $ws4 "4 "
-set $ws5 "5 "
-set $ws6 "6 "
-set $ws7 "7 "
-set $ws8 "8 "
-set $ws9 "9 "
+set $ws4 "4 "
+set $ws5 "5 "
+set $ws6 "6 "
+set $ws7 "7 "
+set $ws8 "8 "
+set $ws9 "9 "
 set $ws10 "10 "
 
 # switch to workspace
@@ -168,7 +168,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $bg-color 	         #42454d
-set $active-border		 #626673
+set $active-border	 #626673
 set $inactive-bg-color   #42454d
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
@@ -179,34 +179,20 @@ set $urgent-bg-color     #c9615f
 client.focused          #active-border      $active-border     $text-color          #c7c7d4
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #c7c7d4
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #c7c7d4
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #c7c7d4
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #c7c
 
-# bar
-bar {
-	position top
-  	font pango:System San Francisco Display 12
-	status_command i3blocks -c /home/mateusz/.config/i3/i3blocks.conf
-	colors {
-		background $bg-color
-	    	separator #757575
-		#class             border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-	}
-}
+bindsym $mod+d exec /home/$USER/.config/i3/rofi.sh
 
-bindsym $mod+d exec /home/mateusz/.config/i3/rofi.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec_always feh --bg-scale /home/mateusz/.config/i3/wallpaper.jpg
 exec_always compton
 
-exec_always st
+exec st
 
 for_window [class="^.*"] border pixel 3
-gaps inner 10
-gaps outer 5
-smart_gaps on
+gaps inner 30
+gaps outer 0
 
 bindsym $mod+shift+x exec i3lock
 
