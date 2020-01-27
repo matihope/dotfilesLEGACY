@@ -168,7 +168,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $bg-color 	         #42454d
-set $active-border	 #626673
+set $active-border	 #666666
 set $inactive-bg-color   #42454d
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
@@ -176,22 +176,23 @@ set $urgent-bg-color     #c9615f
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          #active-border      $active-border     $text-color          #c7c7d4
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #c7c7d4
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #c7c7d4
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #c7c
+client.focused          #active-border      $active-border     $text-color          $active-border
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $active-border
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $active-border
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $active-border
 
 bindsym $mod+d exec /home/$USER/.config/i3/rofi.sh
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+exec setxkbmap -layout pl,us
 exec_always feh --bg-scale /home/mateusz/.config/i3/wallpaper.jpg
 exec_always compton
 
 exec st
 
 for_window [class="^.*"] border pixel 3
-gaps inner 30
+gaps inner 15
 gaps outer 0
 
 bindsym $mod+shift+x exec i3lock

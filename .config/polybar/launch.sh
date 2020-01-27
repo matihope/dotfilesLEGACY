@@ -10,4 +10,4 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch Polybar
 polybar -c ~/.config/polybar/config.ini top &
-polybar -c ~/.config/polybar/config.ini bottom &
+exec hideIt.sh --name '^polybar-top_HDMI-0$' --region 0x40+1080+-40 --direction top -w &
