@@ -33,13 +33,6 @@ PreloadWeight=0
 isInLatteDock=true
 launchers59=applications:org.kde.dolphin.desktop,applications:chromium.desktop,applications:systemsettings.desktop
 
-[Containments][1][Applets][35]
-immutability=1
-plugin=org.kde.latte.separator
-
-[Containments][1][Applets][35][Configuration]
-PreloadWeight=0
-
 [Containments][1][Applets][36]
 immutability=1
 plugin=org.kde.plasma.trash
@@ -64,15 +57,15 @@ favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=899
-DialogWidth=539
+DialogHeight=907
+DialogWidth=480
 
 [Containments][1][Configuration]
 PreloadWeight=0
 
 [Containments][1][General]
 advanced=false
-appletOrder=9;35;2;36
+appletOrder=9;2;36
 hoverAction=PreviewAndHighlightWindows
 iconSize=55
 inConfigureAppletsMode=true
@@ -83,14 +76,20 @@ panelTransparency=20
 shadowOpacity=50
 shadowSize=45
 showGlow=false
+thickMargin=15
 zoomLevel=4
 
 [Containments][1][Indicator]
-customType=
+customType=org.kde.latte.win7
 enabled=true
 enabledForApplets=true
 padding=0.07999999821186066
-type=org.kde.latte.default
+type=org.kde.latte.dashtopanel
+
+[Containments][1][Indicator][org.kde.latte.dashtopanel][General]
+lineThickness=0.07
+maxBackgroundOpacity=0.35
+style=Ciliora
 
 [Containments][1][Indicator][org.kde.latte.default][General]
 glowApplyTo=OnActive
@@ -112,7 +111,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][23][Applets][24][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][23][Applets][25]
 immutability=1
@@ -154,7 +153,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][23][Applets][34][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 source=bbcukmet|weather|Poznań, Poland|3088171
 updateInterval=30
 weatherServiceProviders=bbcukmet,envcan,noaa
@@ -163,18 +162,28 @@ weatherServiceProviders=bbcukmet,envcan,noaa
 DialogHeight=540
 DialogWidth=720
 
-[Containments][23][Applets][40]
+[Containments][23][Applets][57]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][23][Applets][57][Configuration]
+PreloadWeight=4
+
+[Containments][23][Applets][58]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][23][Applets][58][Configuration]
+PreloadWeight=42
 
 [Containments][23][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][23][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.weather
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.weather,org.kde.kdeconnect
 hiddenItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,Latte Dock_microphone,org.kde.plasma.networkmanagement
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.volume
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect
 shownItems=org.kde.plasma.clipboard,org.kde.plasma.weather
 
 [Containments][3]
@@ -197,19 +206,12 @@ viewType=1
 visibility=2
 wallpaperplugin=org.kde.image
 
-[Containments][3][Applets][10]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
-[Containments][3][Applets][10][Configuration]
-PreloadWeight=0
-
 [Containments][3][Applets][22]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][3][Applets][22][Configuration]
-PreloadWeight=0
+PreloadWeight=21
 SystrayContainmentId=23
 
 [Containments][3][Applets][37]
@@ -224,7 +226,7 @@ immutability=1
 plugin=org.kde.plasma.chiliclock
 
 [Containments][3][Applets][39][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][3][Applets][39][Configuration][Appearance]
 boldText=true
@@ -242,32 +244,65 @@ use24hFormat=0
 DialogHeight=540
 DialogWidth=720
 
-[Containments][3][Applets][6]
+[Containments][3][Applets][45]
 immutability=1
-plugin=org.kde.activeWindowControl
+plugin=org.kde.windowtitle
 
-[Containments][3][Applets][6][Configuration]
+[Containments][3][Applets][45][Configuration]
 PreloadWeight=0
 
-[Containments][3][Applets][6][Configuration][Appearance]
-buttonSize=0.6
-buttonsStandalone=true
-buttonsVerticalCenter=true
-controlButtonsSpacing=5
-customAuroraeThemePath=/home/mateusz/.local/share/aurorae/themes/Breezemite_dark/
-horizontalScreenWidthPercent=0.076
-noWindowText=Desktop
-showMaximize=true
-showMinimize=true
-slidingIconAndText=true
-textType=1
-
-[Containments][3][Applets][6][Configuration][ConfigDialog]
+[Containments][3][Applets][45][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
+[Containments][3][Applets][45][Configuration][General]
+containmentType=Latte
+iconFillThickness=false
+iconSize=25
+lengthFirstMargin=4
+lengthMarginsLock=false
+maximumLength=156
+showAppMenuOnMouseEnter=true
+spacing=5
+
+[Containments][3][Applets][50]
+immutability=1
+plugin=org.kde.plasma.appmenu
+
+[Containments][3][Applets][50][Configuration]
+PreloadWeight=0
+
+[Containments][3][Applets][53]
+immutability=1
+plugin=org.kde.windowbuttons
+
+[Containments][3][Applets][53][Configuration]
+PreloadWeight=0
+
+[Containments][3][Applets][53][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][3][Applets][53][Configuration][General]
+buttonSizePercentage=95
+containmentType=Latte
+lengthFirstMargin=5
+lengthLastMargin=5
+useDecorationMetrics=false
+visibility=ActiveWindow
+
+[Containments][3][Applets][56]
+immutability=1
+plugin=org.kde.plasma.colorpicker
+
+[Containments][3][Applets][56][Configuration]
+PreloadWeight=0
+
+[Containments][3][Applets][56][Configuration][General]
+history=#bde3fa,#272727,#5294e2,#f25056,#fddca9
+
 [Containments][3][ConfigDialog]
-DialogHeight=899
+DialogHeight=905
 DialogWidth=539
 
 [Containments][3][Configuration]
@@ -277,7 +312,8 @@ PreloadWeight=0
 animationLauncherBouncing=false
 animationWindowAddedInGroup=false
 animationWindowInAttention=false
-appletOrder=6;10;39;22;37
+appletOrder=53;45;50;39;56;22;37
+backgroundOnlyOnMaximized=true
 dragActiveWindowEnabled=true
 iconSize=20
 inConfigureAppletsMode=true
@@ -291,8 +327,8 @@ shadowSize=100
 shadows=None
 showInfoBadge=false
 solidBackgroundForMaximized=true
-splitterPosition=2
-splitterPosition2=4
+splitterPosition=3
+splitterPosition2=5
 titleTooltips=false
 zoomLevel=0
 

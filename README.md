@@ -37,7 +37,7 @@ These are my dotfiles :)
   * rofi
   * pavucontrol
   * lxappearance
-  * compton
-  * st (aur)
+  * tryone-compton
+  * st
   * Infinality
   * Polybar

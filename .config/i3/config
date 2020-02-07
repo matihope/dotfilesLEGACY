@@ -187,7 +187,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec setxkbmap -layout pl,us
 exec_always feh --bg-scale /home/mateusz/.config/i3/wallpaper.jpg
-exec_always compton
+exec_always compton --config ~/.config/picom/compton.conf
 
 exec st
 
@@ -197,10 +197,10 @@ gaps outer 0
 
 bindsym $mod+shift+x exec i3lock
 
-assign [class=st] $ws1
-assign [class=konsole] $ws1
+assign [class=Konsole] $ws1
 assign [class=Code] $ws2
 assign [class=Sublime_text] $ws2
 assign [class=Google-chrome] $ws3
 assign [class=spotify] $ws10
+for_window [class="Spotify"] move to workspace $ws10
 assign [class=Pavucontrol] $ws10 

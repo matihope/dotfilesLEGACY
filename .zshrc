@@ -99,9 +99,20 @@ export LANG=en_US.UTF-8
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-alias zshconfig="sudo subl ~/.zshrc"
-alias ohmyzsh="sudo subl ~/.oh-my-zsh"
-alias start_sddm="sudo systemctl start sddm"
+
+
+alias zshcfg="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias i3cfg="code ~/.config/i3"
+alias polycfg="code ~/.config/polybar"
+alias c="code ~/code"
+alias comptoncfg="code ~/.config/picom"
+alias picomcfg=comptoncfg
+alias stcfg="code ~/instalki/st/config.h"
 alias q="exit"
+
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+PATH=$PATH:/home/mateusz/code/my_bash_scripts
+
+# neofetch
