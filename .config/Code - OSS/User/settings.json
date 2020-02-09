@@ -16,4 +16,5 @@
     "gitlens.currentLine.enabled": false,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shell.linux": "/bin/bash",
 }

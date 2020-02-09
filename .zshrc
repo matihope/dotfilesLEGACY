@@ -115,4 +115,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 PATH=$PATH:/home/mateusz/code/my_bash_scripts
 
-# neofetch
+neofetch

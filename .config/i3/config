@@ -98,15 +98,15 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 "
+set $ws1 "1 "
 set $ws2 "2 "
-set $ws3 "3 "
-set $ws4 "4 "
-set $ws5 "5 "
+set $ws3 "3 "
+set $ws4 "4 "
+set $ws5 "5 "
 set $ws6 "6 "
-set $ws7 "7 "
+set $ws7 "7 "
 set $ws8 "8 "
-set $ws9 "9 "
+set $ws9 "9 "
 set $ws10 "10 "
 
 # switch to workspace
@@ -187,20 +187,40 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec setxkbmap -layout pl,us
 exec_always feh --bg-scale /home/mateusz/.config/i3/wallpaper.jpg
+exec_always killall compton
 exec_always compton --config ~/.config/picom/compton.conf
 
 exec st
 
 for_window [class="^.*"] border pixel 3
-gaps inner 15
+gaps inner 5
 gaps outer 0
 
 bindsym $mod+shift+x exec i3lock
 
-assign [class=Konsole] $ws1
-assign [class=Code] $ws2
+
+assign [class=konsole] $ws1
+assign [class=St] $ws1
+
+assign [class=code-oss] $ws2
 assign [class=Sublime_text] $ws2
+assign [class=Kate] $ws2
+
+
 assign [class=Google-chrome] $ws3
+assign [class=firefox] $ws3
+
+assign [class=Thunar] $ws4
+assign [class=dolphin] $ws4
+assign [class=Org.gnome.Nautilus] $ws4
+
+assign [class=vlc] $ws5
+
+assign [class=minecraft-launcher] $ws9
+assign [class=minecraft] $ws9
+assign [class=steam] $ws9
+
 assign [class=spotify] $ws10
 for_window [class="Spotify"] move to workspace $ws10
 assign [class=Pavucontrol] $ws10 
+
