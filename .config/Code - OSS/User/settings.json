@@ -44,4 +44,5 @@
         "selection.background": "#FF408140"
     },
     "materialTheme.accent": "Pink",
+    "window.menuBarVisibility": "toggle",
 }

@@ -72,66 +72,33 @@ schemes:
       cursor: '0xd9d9d9'
 
   Google: &Google
+    # Default colors
+    primary:
+      background: '0x1d1f21'
+      foreground: '0xc5c8c6'
+
     # Normal colors
     normal:
-      black:   '0x1c1c1c'
-      red:     '0xbc5653'
-      green:   '0x909d63'
-      yellow:  '0xebc17a'
-      blue:    '0x7eaac7'
-      magenta: '0xaa6292'
-      cyan:    '0x86d3ce'
-      white:   '0xcacaca'
+      black:   '0x1d1f21'
+      red:     '0xcc342b'
+      green:   '0x198844'
+      yellow:  '0xfba922'
+      blue:    '0x3971ed'
+      magenta: '0xa36ac7'
+      cyan:    '0x3971ed'
+      white:   '0xc5c8c6'
 
     # Bright colors
     bright:
-      black:   '0x636363'
-      red:     '0xbc5653'
-      green:   '0x909d63'
-      yellow:  '0xebc17a'
-      blue:    '0x7eaac7'
-      magenta: '0xaa6292'
-      cyan:    '0x86d3ce'
-      white:   '0xf7f7f7'
+      black:   '0x969896'
+      red:     '0xcc342b'
+      green:   '0x198844'
+      yellow:  '0xfba922'
+      blue:    '0x3971ed'
+      magenta: '0xa36ac7'
+      cyan:    '0x3971ed'
+      white:   '0xffffff'
 
-    # Dim colors
-    dim:
-      black:   '0x232323'
-      red:     '0x74423f'
-      green:   '0x5e6547'
-      yellow:  '0x8b7653'
-      blue:    '0x556b79'
-      magenta: '0x6e4962'
-      cyan:    '0x5c8482'
-      white:   '0x828282'
-
-    colors:
-  # Default colors
-  primary:
-    background: '0x1d1f21'
-    foreground: '0xc5c8c6'
-
-  # Normal colors
-  normal:
-    black:   '0x1d1f21'
-    red:     '0xcc342b'
-    green:   '0x198844'
-    yellow:  '0xfba922'
-    blue:    '0x3971ed'
-    magenta: '0xa36ac7'
-    cyan:    '0x3971ed'
-    white:   '0xc5c8c6'
-
-  # Bright colors
-  bright:
-    black:   '0x969896'
-    red:     '0xcc342b'
-    green:   '0x198844'
-    yellow:  '0xfba922'
-    blue:    '0x3971ed'
-    magenta: '0xa36ac7'
-    cyan:    '0x3971ed'
-    white:   '0xffffff'
 
 Ayu: &Ayu
   # Colors (Ayu Dark)
@@ -169,9 +136,9 @@ colors: *Google
 font:
   normal:
     family: Hack
-  size: 13.0
+  size: 14.0
 
-background_opacity: 0.8
+background_opacity: 0.6
 selection:
   save_to_clipboard: true
 

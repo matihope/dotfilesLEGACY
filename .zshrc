@@ -105,6 +105,7 @@ alias zshcfg="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias i3cfg="code ~/.config/i3"
 alias polycfg="code ~/.config/polybar"
+alias alacfg="code ~/.config/alacritty/alacritty.yml"
 alias c="code ~/code/"
 alias comptoncfg="code ~/.config/picom"
 alias picomcfg=comptoncfg
@@ -112,6 +113,7 @@ alias stcfg="code ~/instalki/st/config.h"
 alias q="exit"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 
 PATH=$PATH:/home/mateusz/code/my_bash_scripts
 
