@@ -41,7 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -103,7 +103,7 @@ set $ws2 "2 "
 set $ws3 "3 "
 set $ws4 "4 "
 set $ws5 "5 "
-set $ws6 "6 "
+set $ws6 "6 "
 set $ws7 "7 "
 set $ws8 "8 "
 set $ws9 "9 "
@@ -190,7 +190,7 @@ exec_always feh --bg-scale /home/mateusz/.config/i3/wallpaper.jpg
 exec_always killall compton
 exec_always compton --config ~/.config/picom/compton.conf
 
-exec st
+exec alacritty
 
 for_window [class="^.*"] border pixel 3
 gaps inner 5
@@ -201,6 +201,7 @@ bindsym $mod+shift+x exec i3lock
 
 assign [class=konsole] $ws1
 assign [class=St] $ws1
+assign [class=Alacritty] $ws1
 
 assign [class=code-oss] $ws2
 assign [class=Sublime_text] $ws2
@@ -216,9 +217,12 @@ assign [class=Org.gnome.Nautilus] $ws4
 
 assign [class=vlc] $ws5
 
+assign [class=virtualbox] $ws6
+
 assign [class=minecraft-launcher] $ws9
 assign [class=minecraft] $ws9
 assign [class=steam] $ws9
+assign [class=discord] $ws9
 
 assign [class=spotify] $ws10
 for_window [class="Spotify"] move to workspace $ws10
