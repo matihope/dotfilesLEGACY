@@ -111,6 +111,7 @@ alias comptoncfg="code ~/.config/picom"
 alias picomcfg=comptoncfg
 alias stcfg="code ~/instalki/st/config.h"
 alias q="exit"
+alias op="code ~/code/OpenGL"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 

@@ -206,6 +206,7 @@ assign [class=Alacritty] $ws1
 assign [class=code-oss] $ws2
 assign [class=Sublime_text] $ws2
 assign [class=Kate] $ws2
+assign [class=jetbrains-pycharm-ce] $ws2
 
 
 assign [class=Google-chrome] $ws3
