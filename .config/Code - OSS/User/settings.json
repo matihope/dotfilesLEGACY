@@ -18,8 +18,11 @@
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Horizon",
+    "workbench.colorTheme": "Community Material Theme",
     "workbench.colorCustomizations": {},
     "window.menuBarVisibility": "toggle",
     "window.zoomLevel": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
