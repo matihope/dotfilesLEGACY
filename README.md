@@ -41,3 +41,12 @@ These are my dotfiles :)
   * st
   * Infinality
   * Polybar
+
+ * Most of my fav. gnome extensions:
+   * Arch linux updates indicator [link](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
+   * Blyr [link](https://extensions.gnome.org/extension/1251/blyr/)
+   * Dash to dock [link](https://extensions.gnome.org/extension/307/dash-to-dock/)
+   * Dynamic panel transparency [link](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
+   * Full screen on new workspace [link](https://extensions.gnome.org/extension/1502/fullscreen-on-new-workspace/)
+   * GSconnect [link](https://extensions.gnome.org/extension/1319/gsconnect/)
+   * User themes [link](https://extensions.gnome.org/extension/19/user-themes/)
