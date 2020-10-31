@@ -5,7 +5,6 @@ Plug 'morhetz/gruvbox'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'townk/vim-autoclose'
 
 call plug#end()
 
