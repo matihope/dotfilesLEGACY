@@ -52,3 +52,6 @@ These are my dotfiles :)
    * User themes [link](https://extensions.gnome.org/extension/19/user-themes/)
    * Maximize to workspace with history [link](https://extensions.gnome.org/extension/2857/maximize-to-workspace-with-history/)
    * Extended gestures [link](https://extensions.gnome.org/extension/1253/extended-gestures/)
+* Awesome gestures module:
+   * Fusuma [link](https://github.com/iberianpig/fusuma/)
+      * Related KDE macos like gestures [link](https://github.com/iberianpig/fusuma/wiki/KDE-to-mimic-MacOS/)
