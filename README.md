@@ -61,4 +61,4 @@ These are my dotfiles :)
 
 
 My KDE result
-![alt text](preview.png "Title")
+![alt text](dotfiles/preview.png "Title")
