@@ -22,6 +22,7 @@ These are my dotfiles :)
       * Latte separator
       * Virtual Desktop Bar
       * Fancy Clock
+      * Simple Weather
 
 * For __zsh__(oh-my-zsh plugins):
   * ***zsh-autosuggestions***:
