@@ -49,6 +49,7 @@ These are my dotfiles :)
  * Most of my fav. gnome extensions:
    * Arch linux updates indicator [link](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
    * Blyr [link](https://extensions.gnome.org/extension/1251/blyr/)
+   * Blur my shell [link](https://extensions.gnome.org/extension/3193/blur-my-shell/)
    * Dash to dock [link](https://extensions.gnome.org/extension/307/dash-to-dock/)
    * Dynamic panel transparency [link](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
    * Full screen on new workspace [link](https://extensions.gnome.org/extension/1502/fullscreen-on-new-workspace/)
