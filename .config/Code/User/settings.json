@@ -20,12 +20,12 @@
     "gitlens.codeLens.recentChange.enabled": false,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.colorCustomizations": {},
     "window.menuBarVisibility": "toggle",
     "material-icon-theme.folders.color": "#42a5f5",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Nord",
     "workbench.activityBar.visible": true,
     // "workbench.sideBar.location": "right",
     "tabnine.experimentalAutoImports": true,
@@ -48,4 +48,20 @@
     "workbench.list.smoothScrolling": true,
     "editor.smoothScrolling": true,
     "workbench.productIconTheme": "fluent-icons",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    
+    // django stuff
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        // "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    },
+    "emmet.includeLanguages": {"django-html": "html"},
 }
