@@ -58,6 +58,9 @@ These are my dotfiles :)
    * Maximize to workspace with history [link](https://extensions.gnome.org/extension/2857/maximize-to-workspace-with-history/)
    * Extended gestures [link](https://extensions.gnome.org/extension/1253/extended-gestures/)
    * Pixel Saver [link](https://extensions.gnome.org/extension/723/pixel-saver/)
+   * OpenWeather [link](https://extensions.gnome.org/extension/750/openweather/)
+
+
 * Awesome gestures module:
    * Fusuma [link](https://github.com/iberianpig/fusuma/)
       * Related KDE macos like gestures [link](https://github.com/iberianpig/fusuma/wiki/KDE-to-mimic-MacOS/)
