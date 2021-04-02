@@ -25,7 +25,7 @@
     "workbench.colorCustomizations": {},
     "window.menuBarVisibility": "toggle",
     "material-icon-theme.folders.color": "#42a5f5",
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.activityBar.visible": true,
     // "workbench.sideBar.location": "right",
     "tabnine.experimentalAutoImports": true,
@@ -60,8 +60,14 @@
     "files.associations": {
         "**/*.html": "html",
         "**/templates/**/*.html": "django-html",
-        // "**/templates/**/*": "django-txt",
+        "**/templates/**/*": "django-txt",
         "**/requirements{/**,*}.{txt,in}": "pip-requirements",
     },
-    "emmet.includeLanguages": {"django-html": "html"},
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "css.enabledLanguages": [
+        "html",
+        "django-html"
+    ],
 }

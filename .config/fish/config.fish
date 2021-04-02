@@ -1,4 +1,4 @@
-set theme_color_scheme nord
+set theme_color_scheme zenburn
 set EDITOR "nvim"
 set theme_nerd_fonts yes
 set theme_display_git yes

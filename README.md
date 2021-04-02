@@ -59,6 +59,7 @@ These are my dotfiles :)
    * Extended gestures [link](https://extensions.gnome.org/extension/1253/extended-gestures/)
    * Pixel Saver [link](https://extensions.gnome.org/extension/723/pixel-saver/)
    * OpenWeather [link](https://extensions.gnome.org/extension/750/openweather/)
+   * Just Perfection [link](https://extensions.gnome.org/extension/3843/just-perfection/)
 
 
 * Awesome gestures module:
